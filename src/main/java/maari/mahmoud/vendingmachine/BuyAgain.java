@@ -16,10 +16,10 @@ public class BuyAgain {
 		String upperCaseString = answer.toUpperCase();
 		switch(upperCaseString) {
 		case "Y":
-			return false;
+			return true;
 		default:
 			
-			return true;
+			return false;
 		}
 
 	}
